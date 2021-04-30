@@ -17,4 +17,7 @@ int main() {
       printf("%f %f %f\n", RED, GRN, BLU);
     }
   }
+  free(k);
+  free(j);
+  return 0;
 }
